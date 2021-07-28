@@ -27,7 +27,7 @@ function renderStoreItemList (products) {
     const imageSrc = `assets/icons/${product.id}.svg`;
     imageEl.setAttribute("src", imageSrc);  
     // console.log("image:", imageSrc)   
-    listItemEl.append(imageEl)
+    divEl.append(imageEl)
 
     const btnEl = document.createElement("button");
     btnEl.innerText = "Add to cart";
@@ -53,7 +53,7 @@ function renderCartItemList (cart){
   const imageSrc = `assets/icons/${cartItem.item.id}.svg`;
   imageEl.setAttribute("src", imageSrc);  
   console.log("image:", imageSrc)   
-  divEl.append(imageEl)
+  ListItemInCartEl.append(imageEl)
 
   const paragraphEl = document.createElement("p")
   paragraphEl.innerText = cartItem.item.name
