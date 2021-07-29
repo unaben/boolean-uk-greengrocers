@@ -1,4 +1,4 @@
-const products = [ 
+const storeItemsList = [ 
     {
       id: "001-beetroot",
       name: "Beetroot",
@@ -52,7 +52,7 @@ const products = [
 
 ];
 
-    console.log(products[0].id)
+    console.log(storeItemsList[0].id)
 
 
     // products: [
